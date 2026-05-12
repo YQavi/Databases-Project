@@ -6,8 +6,7 @@ A relational and graph database for somatic mutation analysis of kidney renal cl
 ---
 
 ## Project Summary
-
-This project builds a fully normalized relational database (MySQL, 1NF–5NF) from TCGA clinical and mutation data for 512 kidney clear cell carcinoma samples, selects 5 biologically significant SNPs based on recurrence and functional impact criteria, and imports them into a Neo4j graph database enriched with protein chemistry and interaction data from four public REST APIs (UniProt, dbSNP, ClinVar, STRING).
+This project identifies 5 recurrently mutated driver SNPs in kidney clear cell carcinoma by building a normalized relational database from TCGA somatic mutation data (512 kidney clear cell carcinoma samples), selecting variants by functional impact and recurrence criteria, and visualizing them in a Neo4j graph database enriched with protein chemistry and clinical population data from four public REST APIs (UniProt, dbSNP, ClinVar, STRING) and AllOfUs.
 
 **Final database contains:**
 - 512 patient samples across 20 tissue source sites
