@@ -1,7 +1,7 @@
-# TCGA CCRCC Mutation Database
+# The Cancer Genome Atlas Kidney Renal Clear Cell Carcinoma Mutation Database
 ### BINF6970 — Databases for Bioinformatics | Georgetown University
 
-A relational and graph database for somatic mutation analysis of kidney renal clear cell carcinoma (KIRC/CCRCC) using TCGA Pan-Cancer Atlas 2018 data.
+A relational and graph database for somatic mutation analysis of kidney renal clear cell carcinoma (KIRC/CCRCC) using TCGA Pan-Cancer Atlas 2018 data obtained from cBioPortal.
 
 ---
 
