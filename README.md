@@ -3,7 +3,7 @@
 
 A relational and graph database for somatic mutation analysis of kidney renal clear cell carcinoma (KIRC/CCRCC) using TCGA Pan-Cancer Atlas 2018 data, with population-level validation through the All of Us Research Program.
 
-**Disclaimer: Claude AI was used to assist in the completion of this project**
+*Disclaimer: Claude AI was used to assist in the completion of this project*
 
 ---
 
