@@ -51,7 +51,6 @@ tcga-ccrcc-database/
 ├── .gitignore
 ├── sql/
 │   ├── 01_create_schema.sql          # DDL: creates all 7 MySQL tables
-│   ├── 02_load_cleaned_data.sql      # LOAD DATA statements
 │   └── database_dump.sql             # Full MySQL export — skips steps 1-4
 ├── scripts/
 │   ├── 01_clean_tcga_ccrcc.py        # Data cleaning and normalization pipeline
@@ -76,6 +75,13 @@ tcga-ccrcc-database/
 ---
 
 ## Data Sources
+
+Raw data is included as `data/raw/data_mutation.zip` (compressed due to file size).
+Unzip into `data/raw/` before running the cleaning script:
+```bash
+cd data/raw && unzip data_mutation.zip
+```
+Then run `scripts/01_clean_tcga_ccrcc.py`.
 
 | Source | Resource | Description |
 |---|---|---|
