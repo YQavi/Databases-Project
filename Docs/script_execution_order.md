@@ -51,7 +51,7 @@ Creates all tables with correct types, PKs, FKs, and indexes. Uses DROP DATABASE
 ---
 
 ## Step 3 — Load cleaned data into MySQL
-**Script:** `sql/02_load_cleaned_data.sql` or manual phpMyAdmin import
+**Method:** Manual phpMyAdmin import
 **Input:** TSV files from Step 1
 **Output:** All 7 tables populated
 
